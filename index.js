@@ -12,8 +12,8 @@ type Query {
 }
 type Mutation {
     createProduct(titulo: String, descripcion: String): [NewProduct!],
-    deleteProduct(id: ID!): [Product],
-    updateProduct(id: ID!, titulo: String!, descripcion: String!): [Product]
+    updateProduct(id: ID!, titulo: String!, descripcion: String!): Product,
+    deleteProduct(id: ID!): [Product]
 }
 type Product {
     id: ID!
