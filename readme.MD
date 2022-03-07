@@ -1,6 +1,6 @@
-CRUD
+CRUD con ``GraphQL``
 
-create 
-read ✅
-update 
-delete 
+``read`` ✅
+``create`` ✅ 
+``update`` ✅ 
+``delete`` ✅
